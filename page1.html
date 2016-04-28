@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<title>Page 1</title>
+<link type="text/css" rel="stylesheet" href="css/project.css">
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }</style>
+<script type="text/javascript" src="JS/project.js"></script>
+</head>
+<body onload="first()">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="file:///C:/Users/Arpit/workspace/shopping%20Cart/WebContent/page1.html">Shopping Cart</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="file:///C:/Users/Arpit/workspace/shopping%20Cart/WebContent/page1.html">HOME</a></li>
+      <li><a href="file:///C:/Users/Arpit/workspace/shopping%20Cart/WebContent/page2.html">ORDER DISPLAY </a></li>
+      <li><a href="#">DISPLAY</a></li>
+      <li><a href="#">CONFIRMATION</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h2>Showing Items</h2>
+  <br>
+
+   <div class="row">
+    <div class="col-sm-4"><img alt="none" src="" id="imm" height="300" width="500"></div>
+    
+  </div>
+
+
+
+	<div class="row">
+    <div class="col-sm-4"><input type="button" class="btn btn-info" value="Next" onclick="next()"></div>
+    <div class="col-sm-4"><input type="button" class="btn btn-info" value="Previous" onclick="previous()"></div>
+  </div>
+
+
+<div class="raw">
+  <p id="pd1"></p>
+  <p id="pd2"></p>
+  <p id="pd3"></p>
+</div>
+<div class="row">
+    <div class="col-sm-8"><input type="button" class="btn btn-info" value="Buy" id="center" onclick="buy()"></div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "products": [
+                    {
+                     "title":"SAMSUNG Galaxy S7 edge",
+                     "price":"US $500.00",
+                     "description":"Slim in a big way, Big screen. Slim profile. So you can get more photos, movies and games on the Quad HD Super AMOLED display, and fit it all in your back pocke.",
+                     "image":"image/samsung1.jpg"
+                    },
+                    {
+                     "title":"SAMSUNG Galaxy Note 5",
+                     "price":"US $700.00",
+                     "description":"Get things done with the advanced S Pen. Jot down reminders, lists and schedules without waking the device. And S Pen features are easy to find from any screen or app with the Air Command menu..",
+                     "image":"image/samsung2.jpg"
+                    },
+                    {
+                     "title":"SAMSUNG Galaxy S6",
+                     "price":"US $399.00",
+                     "description":"The Samsung Galaxy S6 is powerful to use and beautiful to behold. The slim and lightweight all-metal body and glass design make a bold statement, while the lightning-fast Samsung Exynos® 7420 Octa-core 64-bit processor delivers the most power and speed we’ve ever put in a smartphone..",
+                     "image":"image/samsung3.png"
+                    }
+                   ]
+}
